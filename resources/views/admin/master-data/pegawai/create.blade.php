@@ -29,20 +29,21 @@
             </div>
 
             <div class="mb-3">
+              <label for="FormControlUnitKerja" class="form-label">Unit Kerja</label>
+              <select class="form-select" id="FormControlUnitKerja">
+                <option selected disabled>Select your unit kerja</option>
+                <option>Prodi D3 Teknologi Informasi</option>
+                <option>Prodi D3 Teknologi Listrik</option>
+                <option>Prodi D3 Agroindustri</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
               <label for="InputEmail" class="form-label">Email Input</label>
               <input type="email" class="form-control" id="InputEmail" value="ekawahyudi@gmail.com"
                 placeholder="Enter Email">
             </div>
 
-            <div class="mb-3">
-              <label for="FormControlJabatan" class="form-label">Jabatan</label>
-              <select class="form-select" id="FormControlJabatan">
-                <option selected disabled>Select your jabatan</option>
-                <option>Direktur</option>
-                <option>Kepala Prodi</option>
-                <option>Kepala Jurusan</option>
-              </select>
-            </div>
             <div class="d-flex justify-content-end">
               <a href="{{ url('/admin/master-data/pegawai') }}" class="btn btn-primary">
                 <i data-feather="save" class="me-2"></i>

@@ -11,9 +11,9 @@
         <div class="card-header">
           <div class="d-flex align-items-center justify-content-between">
             <h4 class="card-title">Data Pegawai</h4>
-            <a href="{{ url('/admin/instansi/create') }}" class="btn btn-primary">
+            <a href="{{ url('/admin/master-data/pegawai/create') }}" class="btn btn-primary">
               <span class="btn-label">
-                <i class="fa fa-plus"></i>
+                <i data-feather="plus"></i>
               </span>
               Tambah Pegawai
             </a>
@@ -24,7 +24,7 @@
             <table class="display table table-striped table table-bordered">
               <thead>
                 <th>No</th>
-                <th width="100px">Aksi</th>
+                <th width="10px">Aksi</th>
                 <th>Nama</th>
                 <th>Unit Kerja</th>
                 <th>Email</th>
@@ -34,12 +34,15 @@
                   <td>1</td>
                   <td>
                     <div class="btn-group">
-                      <a href="#" class="btn btn-sm btn-dark"> <i class="link-icon" data-feather="info"
-                          style="font-size: 14px;"></i></a>
-                      <a href="#" class="btn btn-sm btn-warning"> <i class="link-icon" data-feather="edit"
-                          style="font-size: 14px;"></i></a>
-                      <a href="#" class="btn btn-sm btn-danger"> <i class="link-icon" data-feather="trash"
-                          style="font-size: 14px;"></i></a>
+                      <a href="#" class="btn btn-sm btn-dark">
+                        <i class="icon feather" data-feather="info" style="font-size: 14px;"></i>
+                      </a>
+                      <a href="#" class="btn btn-sm btn-warning">
+                        <i class="icon feather" data-feather="edit" style="font-size: 14px;"></i>
+                      </a>
+                      <a href="#" class="btn btn-sm btn-danger">
+                        <i class="icon feather" data-feather="trash" style="font-size: 12px;"></i>
+                      </a>
                     </div>
                   </td>
                   <td>Eka Wahyudi</td>
@@ -50,9 +53,15 @@
                   <td>2</td>
                   <td>
                     <div class="btn-group">
-                      <a href="#" class="btn btn-sm btn-dark"><i class="fas fa-info"></i></a>
-                      <a href="#" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i></a>
-                      <a href="#" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
+                      <a href="#" class="btn btn-sm btn-dark">
+                        <i class="icon feather" data-feather="info" style="font-size: 14px;"></i>
+                      </a>
+                      <a href="#" class="btn btn-sm btn-warning">
+                        <i class="icon feather" data-feather="edit" style="font-size: 14px;"></i>
+                      </a>
+                      <a href="#" class="btn btn-sm btn-danger">
+                        <i class="icon feather" data-feather="trash" style="font-size: 12px;"></i>
+                      </a>
                     </div>
                   </td>
                   <td>Eka Wahyudi</td>
@@ -63,9 +72,15 @@
                   <td>3</td>
                   <td>
                     <div class="btn-group">
-                      <a href="#" class="btn btn-sm btn-dark"><i class="fas fa-info"></i></a>
-                      <a href="#" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i></a>
-                      <a href="#" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
+                      <a href="#" class="btn btn-sm btn-dark">
+                        <i class="icon feather" data-feather="info" style="font-size: 14px;"></i>
+                      </a>
+                      <a href="#" class="btn btn-sm btn-warning">
+                        <i class="icon feather" data-feather="edit" style="font-size: 14px;"></i>
+                      </a>
+                      <a href="#" class="btn btn-sm btn-danger">
+                        <i class="icon feather" data-feather="trash" style="font-size: 12px;"></i>
+                      </a>
                     </div>
                   </td>
                   <td>Eka Wahyudi</td>
@@ -76,9 +91,15 @@
                   <td>4</td>
                   <td>
                     <div class="btn-group">
-                      <a href="#" class="btn btn-sm btn-dark"><i class="fas fa-info"></i></a>
-                      <a href="#" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i></a>
-                      <a href="#" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
+                      <a href="#" class="btn btn-sm btn-dark">
+                        <i class="icon feather" data-feather="info" style="font-size: 14px;"></i>
+                      </a>
+                      <a href="#" class="btn btn-sm btn-warning">
+                        <i class="icon feather" data-feather="edit" style="font-size: 14px;"></i>
+                      </a>
+                      <a href="#" class="btn btn-sm btn-danger">
+                        <i class="icon feather" data-feather="trash" style="font-size: 12px;"></i>
+                      </a>
                     </div>
                   </td>
                   <td>Eka Wahyudi</td>
@@ -89,9 +110,15 @@
                   <td>5</td>
                   <td>
                     <div class="btn-group">
-                      <a href="#" class="btn btn-sm btn-dark"><i class="fas fa-info"></i></a>
-                      <a href="#" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i></a>
-                      <a href="#" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
+                      <a href="#" class="btn btn-sm btn-dark">
+                        <i class="icon feather" data-feather="info" style="font-size: 14px;"></i>
+                      </a>
+                      <a href="#" class="btn btn-sm btn-warning">
+                        <i class="icon feather" data-feather="edit" style="font-size: 14px;"></i>
+                      </a>
+                      <a href="#" class="btn btn-sm btn-danger">
+                        <i class="icon feather" data-feather="trash" style="font-size: 12px;"></i>
+                      </a>
                     </div>
                   </td>
                   <td>Eka Wahyudi</td>

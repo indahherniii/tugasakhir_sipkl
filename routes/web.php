@@ -19,30 +19,30 @@ Route::get('/admin/master-data/pegawai/create', function () {
 });
 
 Route::get('/admin/master-data/mahasiswa', function () {
-    return view('admin.master-data.pegawai.index');
+    return view('admin.master-data.mahasiswa.index');
 });
 
 Route::get('/admin/master-data/mahasiswa/create', function () {
-    return view('admin.master-data.pegawai.create');
+    return view('admin.master-data.mahasiswa.create');
 });
 
-Route::get('/admin/instansi', function () {
+Route::get('/admin/data/instansi', function () {
     return view('admin.data.instansi.index');
 });
 
-Route::get('/admin/instansi/create', function () {
+Route::get('/admin/data/instansi/create', function () {
     return view('admin.data.instansi.create');
 });
 
-Route::get('/admin/kegiatan_harian', function () {
+Route::get('/admin/data/kegiatan_harian', function () {
     return view('admin.data.kegiatan_harian.index');
 });
 
-Route::get('/admin/pkl', function () {
+Route::get('/admin/data/pkl', function () {
     return view('admin.data.pkl.index');
 });
 
-Route::get('/admin/pkl/create', function () {
+Route::get('/admin/data/pkl/create', function () {
     return view('admin.data.pkl.create');
 });
 

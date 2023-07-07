@@ -38,19 +38,20 @@
       </li>
       <li class="nav-item nav-category">Data</li>
       <li class="nav-item">
-        <a href="{{ url('admin/instansi') }}" class="nav-link {{ Request::is('admin/instansi') ? 'active' : '' }}">
+        <a href="{{ url('admin/data/instansi') }}"
+          class="nav-link {{ Request::is('admin/data/instansi') ? 'active' : '' }}">
           <i class="link-icon" data-feather="briefcase"></i>
           <span class="link-title">Instansi</span>
         </a>
       </li>
       <li class="nav-item">
-        <a href="{{ url('admin/pkl') }}" class="nav-link {{ Request::is('admin/pkl') ? 'active' : '' }}">
+        <a href="{{ url('admin/data/pkl') }}" class="nav-link {{ Request::is('admin/data/pkl') ? 'active' : '' }}">
           <i class="link-icon" data-feather="file-text"></i>
           <span class="link-title">PKl</span>
         </a>
       </li>
       <li class="nav-item menu-open">
-        <a class="nav-link {{ Request::is('admin/kegiatan_harian*') ? 'active' : '' }}" data-bs-toggle="collapse"
+        <a class="nav-link {{ Request::is('admin/data/kegiatan_harian*') ? 'active' : '' }}" data-bs-toggle="collapse"
           href="#laporan" role="button" aria-expanded="false" aria-controls="laporan">
           <i class="link-icon" data-feather="clipboard"></i>
           <span class="link-title">Laporan</span>
@@ -59,8 +60,8 @@
         <div class="collapse" id="laporan">
           <ul class="nav sub-menu">
             <li class="nav-item">
-              <a href="{{ url('admin/kegiatan_harian') }}"
-                class="nav-link {{ Request::is('admin/kegiatan_harian') ? 'active' : '' }}">Kegiatan Harian
+              <a href="{{ url('admin/data/kegiatan_harian') }}"
+                class="nav-link {{ Request::is('admin/data/kegiatan_harian') ? 'active' : '' }}">Kegiatan Harian
                 Mahasiswa</a>
             </li>
           </ul>

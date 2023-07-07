@@ -37,20 +37,19 @@
   <!-- End layout styles -->
 
   <link rel="shortcut icon" href="{{ url('template/assets/images/favicon.png') }}" />
-  <script src="https://kit.fontawesome.com/9e2e3f11aa.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div class="main-wrapper">
 
     <!-- partial:../../partials/_sidebar.html -->
-    @include('layouts.admin.partials.sidebar')
+    @include('layouts.mahasiswa.partials.sidebar')
     <!-- partial -->
 
     <div class="page-wrapper">
 
       <!-- partial:../../partials/_navbar.html -->
-      @include('layouts.admin.partials.header')
+      @include('layouts.mahasiswa.partials.header')
       <!-- partial -->
 
       <div class="page-content">
@@ -58,7 +57,7 @@
       </div>
 
       <!-- partial:../../partials/_footer.html -->
-      @include('layouts.admin.partials.footer')
+      @include('layouts.mahasiswa.partials.footer')
       <!-- partial -->
 
     </div>

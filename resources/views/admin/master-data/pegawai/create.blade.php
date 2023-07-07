@@ -22,7 +22,7 @@
             <div class="mb-3">
               <label for="FormControlStatus" class="form-label">Status</label>
               <select class="form-select" id="FormControlStatus">
-                <option selected disabled>Select your status</option>
+                <option selected disabled>Pilih status</option>
                 <option>Master-data</option>
                 <option>Admin</option>
               </select>
@@ -31,7 +31,7 @@
             <div class="mb-3">
               <label for="FormControlUnitKerja" class="form-label">Unit Kerja</label>
               <select class="form-select" id="FormControlUnitKerja">
-                <option selected disabled>Select your unit kerja</option>
+                <option selected disabled>Pilih unit kerja</option>
                 <option>Prodi D3 Teknologi Informasi</option>
                 <option>Prodi D3 Teknologi Listrik</option>
                 <option>Prodi D3 Agroindustri</option>

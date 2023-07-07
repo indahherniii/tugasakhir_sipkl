@@ -1,10 +1,11 @@
 @extends('layouts.admin.main')
 
 @section('container')
-  <nav class="page-inner">
-    <div class="page-header">
-      <h4 class="page-title">Mahasiswa</h4>
-  </nav>
+  <div class="d-flex justify-content-center align-items-center flex-wrap grid-margin">
+    <div>
+      <h4 class="mb-3 mb-md-0">Mahasiswa</h4>
+    </div>
+  </div>
   <div class="row">
     <div class="col-md-12 grid-margin stretch-card">
       <div class="card">

@@ -12,7 +12,7 @@
   <div class="sidebar-body">
     <ul class="nav">
       <li class="nav-item">
-        <a href="/" class="nav-link {{ Request::is('/') ? 'active' : '' }}">
+        <a href="{{ url('admin/dashboard') }}" class="nav-link {{ Request::is('admin/dashboard') ? 'active' : '' }}">
           <i class="link-icon" data-feather="home"></i>
           <span class="link-title">Dashboard</span>
         </a>
@@ -47,7 +47,7 @@
       <li class="nav-item">
         <a href="{{ url('admin/data/pkl') }}" class="nav-link {{ Request::is('admin/data/pkl') ? 'active' : '' }}">
           <i class="link-icon" data-feather="file-text"></i>
-          <span class="link-title">PKl</span>
+          <span class="link-title">PKL</span>
         </a>
       </li>
       <li class="nav-item menu-open">
@@ -61,12 +61,13 @@
           <ul class="nav sub-menu">
             <li class="nav-item">
               <a href="{{ url('admin/data/kegiatan_harian') }}"
-                class="nav-link {{ Request::is('admin/data/kegiatan_harian') ? 'active' : '' }}">Kegiatan Harian
+                class="nav-link {{ Request::is('admin/data/kegiatan_harian*') ? 'active' : '' }}">Kegiatan Harian
                 Mahasiswa</a>
             </li>
           </ul>
         </div>
       </li>
+
     </ul>
   </div>
 </nav>

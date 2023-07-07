@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 // Admin
 
-Route::get('/', function () {
+Route::get('/admin/dashboard', function () {
     return view('admin.dashboard');
 });
 
@@ -52,4 +52,10 @@ Route::get('/admin/profile', function () {
 
 Route::get('/admin/profile/edit', function () {
     return view('admin.profile.edit');
+});
+
+// Mahasiswa
+
+Route::get('/mahasiswa/dashboard', function () {
+  return view('mahasiswa.dashboard');
 });

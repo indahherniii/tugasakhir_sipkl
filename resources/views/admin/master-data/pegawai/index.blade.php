@@ -35,9 +35,7 @@
                   <td>1</td>
                   <td>
                     <div class="btn-group">
-                      <a href="#" class="btn btn-sm btn-dark">
-                        <i class="icon feather" data-feather="info" style="font-size: 14px;"></i>
-                      </a>
+                      <a href="#" class="btn btn-sm btn-dark"><i class="fa-solid fa-info"></i></a>
                       <a href="#" class="btn btn-sm btn-warning">
                         <i class="icon feather" data-feather="edit" style="font-size: 14px;"></i>
                       </a>

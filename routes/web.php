@@ -46,6 +46,14 @@ Route::get('/admin/data/pkl/create', function () {
     return view('admin.data.pkl.create');
 });
 
+Route::get('/admin/data/lowongan', function () {
+  return view('admin.data.lowongan.index');
+});
+
+Route::get('/admin/data/persyaratan', function () {
+  return view('admin.data.persyaratan.index');
+});
+
 Route::get('/admin/profile', function () {
     return view('admin.profile.index');
 });
@@ -58,4 +66,24 @@ Route::get('/admin/profile/edit', function () {
 
 Route::get('/mahasiswa/dashboard', function () {
   return view('mahasiswa.dashboard');
+});
+
+Route::get('/mahasiswa/persyaratan', function () {
+  return view('mahasiswa.persyaratan.index');
+});
+
+Route::get('/mahasiswa/lowongan', function () {
+  return view('mahasiswa.lowongan.index');
+});
+
+Route::get('/mahasiswa/lowongan/show', function () {
+  return view('mahasiswa.lowongan.show');
+});
+
+Route::get('/mahasiswa/pkl', function () {
+  return view('mahasiswa.pkl.index');
+});
+
+Route::get('/mahasiswa/instansi', function () {
+  return view('mahasiswa.instansi.index');
 });

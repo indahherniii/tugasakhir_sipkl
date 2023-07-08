@@ -1,69 +1,24 @@
 @extends('layouts.admin.main')
 
 @section('container')
-  {{-- <div class="page-content">
-    <div class="page-header">
-      <h4 class="page-title">Data PKL</h4>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="card">
-          <div class="card-header">
-            <h5 class="card-title">Daftar PKL</h5>
-          </div>
-          <div class="card-body">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th>Nama PKL</th>
-                  <th>Deskripsi</th>
-                  <th>Durasi</th>
-                  <th>Status Kuota</th>
-                  <th>Aksi</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>PKL ABC Company</td>
-                  <td>PKL di ABC Company untuk mahasiswa jurusan Teknik Informatika</td>
-                  <td>3 bulan</td>
-                  <td><span class="badge badge-success">Kuota Tersedia</span></td>
-                  <td><a href="#" class="btn btn-primary">Lihat Detail</a></td>
-                </tr>
-                <tr>
-                  <td>PKL XYZ Corporation</td>
-                  <td>PKL di XYZ Corporation untuk mahasiswa jurusan Teknik Elektro</td>
-                  <td>2 bulan</td>
-                  <td><span class="badge badge-danger">Kuota Habis</span></td>
-                  <td><a href="#" class="btn btn-primary">Lihat Detail</a></td>
-                </tr>
-                <!-- Tambahan baris untuk PKL lainnya -->
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> --}}
-
-
   <nav class="page-inner">
     <div class="page-header">
-      <h4 class="page-title">Praktik Kerja Lapangan</h4>
+      <h4 class="page-title">Instansi</h4>
   </nav>
   <div class="row">
     <div class="col-md-12 grid-margin stretch-card">
       <div class="card">
         <div class="card-header">
           <div class="d-flex align-items-center justify-content-between">
-            <h4 class="card-title">Data Praktik Kerja Lapangan</h4>
+            <h4 class="card-title">Data Instansi</h4>
             <a href="{{ url('/admin/data/instansi/create') }}" class="btn btn-primary">
               <span class="btn-label">
                 <i data-feather="plus"></i>
               </span>
-              Tambah PKL
+              Tambah Instansi
             </a>
           </div>
+
         </div>
         <div class="card-body">
           <div class="table-responsive">
@@ -71,9 +26,9 @@
               <thead>
                 <tr>
                   <th style="width: 10%">Aksi</th>
-                  <th>Bidang</th>
-                  <th>Tempat PKL</th>
-                  <th>Kuota</th>
+                  <th>Nama PT</th>
+                  <th>Alamat</th>
+                  <th>Jumlah Lowongan</th>
                 </tr>
               </thead>
               <tbody>
@@ -91,8 +46,8 @@
                       </a>
                     </div>
                   </td>
-                  <td>Informatika</td>
-                  <td>PT PLN (Persero) UP3 Ketapang</td>
+                  <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                  <td>Jalan Letkol M. Tohir Mo 25 </td>
                   <td>1</td>
                 </tr>
                 <tr>
@@ -109,9 +64,9 @@
                       </a>
                     </div>
                   </td>
-                  <td>Informatika</td>
-                  <td>PT PLN (Persero) UP3 Ketapang</td>
-                  <td>1</td>
+                  <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                  <td>Jalan Letkol M. Tohir Mo 25 </td>
+                  <td>2</td>
                 </tr>
                 <tr>
                   <td>
@@ -127,9 +82,9 @@
                       </a>
                     </div>
                   </td>
-                  <td>Informatika</td>
-                  <td>PT PLN (Persero) UP3 Ketapang</td>
-                  <td>1</td>
+                  <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                  <td>Jalan Letkol M. Tohir Mo 25 </td>
+                  <td>3</td>
                 </tr>
                 <tr>
                   <td>
@@ -145,9 +100,9 @@
                       </a>
                     </div>
                   </td>
-                  <td>Informatika</td>
-                  <td>PT PLN (Persero) UP3 Ketapang</td>
-                  <td>1</td>
+                  <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                  <td>Jalan Letkol M. Tohir Mo 25 </td>
+                  <td>4</td>
                 </tr>
                 <tr>
                   <td>
@@ -163,9 +118,9 @@
                       </a>
                     </div>
                   </td>
-                  <td>Informatika</td>
-                  <td>PT PLN (Persero) UP3 Ketapang</td>
-                  <td>1</td>
+                  <td>PT PLN UP3 (Persero) Kabupaten Ketapang</td>
+                  <td>Jalan Letkol M. Tohir Mo 25 </td>
+                  <td>5</td>
                 </tr>
               </tbody>
             </table>

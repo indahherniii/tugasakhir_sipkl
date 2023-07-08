@@ -37,6 +37,7 @@
   <!-- End layout styles -->
 
   <link rel="shortcut icon" href="{{ url('template/assets/images/favicon.png') }}" />
+  <script src="https://kit.fontawesome.com/9e2e3f11aa.js" crossorigin="anonymous"></script>
 </head>
 
 <body>

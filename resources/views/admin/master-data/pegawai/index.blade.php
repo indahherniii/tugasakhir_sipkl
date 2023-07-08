@@ -25,10 +25,10 @@
             <table class="display table table-striped table table-bordered">
               <thead>
                 <th>No</th>
-                <th width="10px">Aksi</th>
+                <th style="width: 100px">Aksi</th>
+                <th>NIP</th>
                 <th>Nama</th>
-                <th>Unit Kerja</th>
-                <th>Email</th>
+                <th>Status</th>
               </thead>
               <tbody>
                 <tr>
@@ -36,93 +36,65 @@
                   <td>
                     <div class="btn-group">
                       <a href="#" class="btn btn-sm btn-dark"><i class="fa-solid fa-info"></i></a>
-                      <a href="#" class="btn btn-sm btn-warning">
-                        <i class="icon feather" data-feather="edit" style="font-size: 14px;"></i>
-                      </a>
-                      <a href="#" class="btn btn-sm btn-danger">
-                        <i class="icon feather" data-feather="trash" style="font-size: 12px;"></i>
-                      </a>
+                      <a href="#" class="btn btn-sm btn-warning"><i class="fa-solid fa-edit"></i></a>
+                      <a href="#" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></a>
                     </div>
                   </td>
-                  <td>Eka Wahyudi</td>
-                  <td>Prodi D3 Teknologi Informasi</td>
-                  <td>ekawahyudi@gmail.com</td>
+                  <td>19820623 201509 169</td>
+                  <td>Saifudin Usman</td>
+                  <td>Admin</td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
                     <div class="btn-group">
-                      <a href="#" class="btn btn-sm btn-dark">
-                        <i class="icon feather" data-feather="info" style="font-size: 14px;"></i>
-                      </a>
-                      <a href="#" class="btn btn-sm btn-warning">
-                        <i class="icon feather" data-feather="edit" style="font-size: 14px;"></i>
-                      </a>
-                      <a href="#" class="btn btn-sm btn-danger">
-                        <i class="icon feather" data-feather="trash" style="font-size: 12px;"></i>
-                      </a>
+                      <a href="#" class="btn btn-sm btn-dark"><i class="fa-solid fa-info"></i></a>
+                      <a href="#" class="btn btn-sm btn-warning"><i class="fa-solid fa-edit"></i></a>
+                      <a href="#" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></a>
                     </div>
                   </td>
-                  <td>Eka Wahyudi</td>
-                  <td>Prodi D3 Teknologi Informasi</td>
-                  <td>ekawahyudi@gmail.com</td>
+                  <td>19820623 201509 169</td>
+                  <td>Saifudin Usman</td>
+                  <td>Admin</td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
                     <div class="btn-group">
-                      <a href="#" class="btn btn-sm btn-dark">
-                        <i class="icon feather" data-feather="info" style="font-size: 14px;"></i>
-                      </a>
-                      <a href="#" class="btn btn-sm btn-warning">
-                        <i class="icon feather" data-feather="edit" style="font-size: 14px;"></i>
-                      </a>
-                      <a href="#" class="btn btn-sm btn-danger">
-                        <i class="icon feather" data-feather="trash" style="font-size: 12px;"></i>
-                      </a>
+                      <a href="#" class="btn btn-sm btn-dark"><i class="fa-solid fa-info"></i></a>
+                      <a href="#" class="btn btn-sm btn-warning"><i class="fa-solid fa-edit"></i></a>
+                      <a href="#" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></a>
                     </div>
                   </td>
-                  <td>Eka Wahyudi</td>
-                  <td>Prodi D3 Teknologi Informasi</td>
-                  <td>ekawahyudi@gmail.com</td>
+                  <td>19820623 201509 169</td>
+                  <td>Saifudin Usman</td>
+                  <td>Admin</td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>
                     <div class="btn-group">
-                      <a href="#" class="btn btn-sm btn-dark">
-                        <i class="icon feather" data-feather="info" style="font-size: 14px;"></i>
-                      </a>
-                      <a href="#" class="btn btn-sm btn-warning">
-                        <i class="icon feather" data-feather="edit" style="font-size: 14px;"></i>
-                      </a>
-                      <a href="#" class="btn btn-sm btn-danger">
-                        <i class="icon feather" data-feather="trash" style="font-size: 12px;"></i>
-                      </a>
+                      <a href="#" class="btn btn-sm btn-dark"><i class="fa-solid fa-info"></i></a>
+                      <a href="#" class="btn btn-sm btn-warning"><i class="fa-solid fa-edit"></i></a>
+                      <a href="#" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></a>
                     </div>
                   </td>
-                  <td>Eka Wahyudi</td>
-                  <td>Prodi D3 Teknologi Informasi</td>
-                  <td>ekawahyudi@gmail.com</td>
+                  <td>19820623 201509 169</td>
+                  <td>Saifudin Usman</td>
+                  <td>Admin</td>
                 </tr>
                 <tr>
                   <td>5</td>
                   <td>
                     <div class="btn-group">
-                      <a href="#" class="btn btn-sm btn-dark">
-                        <i class="icon feather" data-feather="info" style="font-size: 14px;"></i>
-                      </a>
-                      <a href="#" class="btn btn-sm btn-warning">
-                        <i class="icon feather" data-feather="edit" style="font-size: 14px;"></i>
-                      </a>
-                      <a href="#" class="btn btn-sm btn-danger">
-                        <i class="icon feather" data-feather="trash" style="font-size: 12px;"></i>
-                      </a>
+                      <a href="#" class="btn btn-sm btn-dark"><i class="fa-solid fa-info"></i></a>
+                      <a href="#" class="btn btn-sm btn-warning"><i class="fa-solid fa-edit"></i></a>
+                      <a href="#" class="btn btn-sm btn-danger"><i class="fa-solid fa-trash"></i></a>
                     </div>
                   </td>
-                  <td>Eka Wahyudi</td>
-                  <td>Prodi D3 Teknologi Informasi</td>
-                  <td>ekawahyudi@gmail.com</td>
+                  <td>19820623 201509 169</td>
+                  <td>Saifudin Usman</td>
+                  <td>Admin</td>
                 </tr>
               </tbody>
             </table>

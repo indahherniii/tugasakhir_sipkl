@@ -38,17 +38,25 @@
       </li>
       <li class="nav-item nav-category">Data</li>
       <li class="nav-item">
-        <a href="{{ url('admin/data/instansi') }}"
-          class="nav-link {{ Request::is('admin/data/instansi') ? 'active' : '' }}">
-          <i class="link-icon" data-feather="briefcase"></i>
-          <span class="link-title">Instansi</span>
+        <a class="nav-link {{ Request::is('admin/data/lowongan*') || Request::is('admin/data/persyaratan*') || Request::is('admin/data/pkl*') ? 'active' : '' }}"
+          data-bs-toggle="collapse" href="#mahasiswa" role="button" aria-expanded="false" aria-controls="mahasiswa">
+          <i class="link-icon" data-feather="smile"></i>
+          <span class="link-title">Mahasiswa</span>
+          <i class="link-arrow" data-feather="chevron-down"></i>
         </a>
-      </li>
-      <li class="nav-item">
-        <a href="{{ url('admin/data/pkl') }}" class="nav-link {{ Request::is('admin/data/pkl') ? 'active' : '' }}">
-          <i class="link-icon" data-feather="file-text"></i>
-          <span class="link-title">PKL</span>
-        </a>
+        <div class="collapse" id="mahasiswa">
+          <ul class="nav sub-menu">
+            <li class="nav-item">
+              <a href="{{ url('admin/data/lowongan') }}" class="nav-link">Lowongan</a>
+            </li>
+            <li class="nav-item">
+              <a href="{{ url('admin/data/persyaratan') }}" class="nav-link">Persyaratan</a>
+            </li>
+            <li class="nav-item">
+              <a href="{{ url('admin/data/pkl') }}" class="nav-link">PKL</a>
+            </li>
+          </ul>
+        </div>
       </li>
       <li class="nav-item menu-open">
         <a class="nav-link {{ Request::is('admin/data/kegiatan_harian*') ? 'active' : '' }}" data-bs-toggle="collapse"
@@ -67,6 +75,14 @@
           </ul>
         </div>
       </li>
+      <li class="nav-item">
+        <a href="{{ url('admin/data/instansi') }}"
+          class="nav-link {{ Request::is('admin/data/instansi') ? 'active' : '' }}">
+          <i class="link-icon" data-feather="briefcase"></i>
+          <span class="link-title">Instansi</span>
+        </a>
+      </li>
+
 
     </ul>
   </div>
